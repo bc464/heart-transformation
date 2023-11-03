@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1 {
+  text-align: center;
+}
 button {
   padding: 10px;
   border-radius: 100px;
@@ -23,4 +26,16 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.btn-fixed {
+  position: fixed;
+}
+.content-header {
+  padding: 10%;
+}
+.content-container {
+  padding: 10%;
+}
+ol {
+  margin-bottom: 20px;
 }
