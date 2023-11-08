@@ -39,3 +39,11 @@ button:hover {
 ol {
   margin-bottom: 20px;
 }
+p {
+  margin-bottom: 5px;
+}
+.container-table {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
