@@ -22,6 +22,7 @@ button:hover {
   color: blueviolet;
   border: 1px solid aquamarine;
 }
+
 .page-change {
   display: flex;
   align-items: center;
@@ -30,11 +31,41 @@ button:hover {
 .btn-fixed {
   position: fixed;
 }
+/* Container - Index page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  column-gap: 5px;
+}
+.container h2 {
+  margin-bottom: 10px;
+}
+span {
+  margin-right: 5px;
+}
+.container a {
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+/* pages container */
+.pages-container {
+  padding: 20px 10%;
+}
+
+/* content pages  styles */
+
 .content-header {
-  padding: 10%;
+  padding: 10% 10% 20px 10%;
 }
 .content-container {
-  padding: 10%;
+  padding: 0 10% 20px 10%;
+}
+.content-container_box {
+  margin-bottom: 10px;
 }
 ol {
   margin-bottom: 20px;
