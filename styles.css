@@ -78,7 +78,15 @@ p {
   flex-wrap: wrap;
   column-gap: 50px;
 }
+.container-flex_box {
+  display: flex;
 
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.container-flex {
+  width: 250px;
+}
 @media only screen and (max-width: 800px) {
   .container-table {
     row-gap: 2px;
